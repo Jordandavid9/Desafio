@@ -1,0 +1,151 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 0px 42px;
+}
+
+.link-header {
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 36px;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.875px;
+}
+
+.link-header:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    width: 124px;
+    height: 51px;
+    letter-spacing: 1px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.button-header:hover{
+    transition: ease-in-out;
+    background: #93e268;
+    transform: scaleY(1.1) scaleX(1.1) translateZ(0px);
+}
+img {
+    width: 495.1px;
+    height: 400px;
+    margin: 163px 0 0 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.98px;
+    width: 493px;
+}
+
+h1 {
+    color: #161A49;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+}
+
+p{
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.link-section:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1197px) {
+    .link-header {
+        display: none;
+    }
+
+    header {
+        margin: 15px;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+        letter-spacing: 1px;
+        position: absolute;
+        right: 20px;
+        margin-top: 7px;
+    }
+
+    section {
+        display: block;
+        position: absolute;
+        width: 100vw;
+        height: auto;
+        padding: 15%;
+        margin-left: 0;
+        top: 100px;
+        
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px; 
+        letter-spacing: 0.596px;
+    }
+
+    p {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .link-section {
+        text-align: center;
+        display: block;
+    }
+
+    img {
+        width: 300px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        top: 550px;
+    }
+}
+    
